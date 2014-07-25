@@ -4,6 +4,7 @@ tttApp.controller('tttController', function($scope, $firebase){
 
 	
 	//empty array to form board with ng-repeat
+
 	
 
 	$scope.board = [" "," "," "," "," "," "," "," "," "];
@@ -124,6 +125,10 @@ tttApp.controller('tttController', function($scope, $firebase){
 		}
 
 
+		// if ($scope.clicked > 0; win()) {
+		// 	$scope.newGame;
+		// }
+		$scope.win = "hello"
 };
 
 
