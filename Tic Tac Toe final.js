@@ -128,7 +128,7 @@ tttApp.controller('tttController', function($scope, $firebase){
 		// if ($scope.clicked > 0; win()) {
 		// 	$scope.newGame;
 		// }
-		$scope.win = "hello"
+		
 };
 
 
