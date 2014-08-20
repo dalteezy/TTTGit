@@ -2,10 +2,10 @@ var tttApp = angular.module('tttApp',["firebase"]);
 
 tttApp.controller('tttController', function($scope, $firebase){
 
-	
+
 	//empty array to form board with ng-repeat
 
-	
+
 
 	$scope.board = [" "," "," "," "," "," "," "," "," "];
 
@@ -15,7 +15,7 @@ tttApp.controller('tttController', function($scope, $firebase){
 
 		if ($scope.board[b] == " ") {
 
-			
+
 			$scope.clicked+=1;
 			if ($scope.clicked % 2 == 0) {
 				$scope.board[b] = 'O';
@@ -25,7 +25,7 @@ tttApp.controller('tttController', function($scope, $firebase){
 			else {
 				$scope.board[b] = 'X';
 				win();
-	
+
 				}
 			}
 		};
@@ -128,10 +128,8 @@ tttApp.controller('tttController', function($scope, $firebase){
 		// if ($scope.clicked > 0; win()) {
 		// 	$scope.newGame;
 		// }
-		
+		$scope.win = "hello"
 };
 
 
 });
-
-
